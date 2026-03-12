@@ -6,7 +6,7 @@
 
 **Tugas Anda**: Memperbaiki kode yang bermasalah menjadi aman dengan menerapkan prinsip Security by Design.
 
-📖 **Baca dulu**: `UNTUK_MAHASISWA.md` sebelum mulai!
+📖 **Baca dulu**: [`docs/UNTUK_MAHASISWA.md`](docs/UNTUK_MAHASISWA.md) sebelum mulai!
 
 ---
 
