@@ -279,22 +279,22 @@ $money = new Money(-100); // Bisa negatif!
 ## Red Flags dalam Submission
 
 ### Critical Issues (Harus Diperbaiki)
-- ❌ Test tidak PASS
-- ❌ Race condition masih ada
-- ❌ Invalid state bisa terjadi
-- ❌ Tidak ada audit trail
-- ❌ Logic di controller
+- Test tidak PASS
+- Race condition masih ada
+- Invalid state bisa terjadi
+- Tidak ada audit trail
+- Logic di controller
 
 ### Major Issues (Nilai dikurangi signifikan)
-- ⚠️ Tidak pakai value objects
-- ⚠️ Tidak pakai state machine
-- ⚠️ Tidak pakai domain events
-- ⚠️ Code duplication banyak
+- Tidak pakai value objects
+- Tidak pakai state machine
+- Tidak pakai domain events
+- Code duplication banyak
 
 ### Minor Issues (Nilai dikurangi sedikit)
-- ⚠️ Naming kurang jelas
-- ⚠️ Comments kurang
-- ⚠️ Documentation kurang detail
+- Naming kurang jelas
+- Comments kurang
+- Documentation kurang detail
 
 ## Variasi untuk Prevent Plagiarism
 
