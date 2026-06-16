@@ -293,4 +293,4 @@ Jika stuck:
 3. Diskusi dengan teman (tapi jangan copy-paste)
 4. Tanya asisten lab
 
-Good luck! 🚀
+Good luck!
