@@ -6,9 +6,9 @@
 ```php
 // Order.php - SALAH
 protected $fillable = ['status', 'amount', 'user_id', 'order_date'];
-// status = string bebas: "paid", "Paid", "PAID", "payed" ❌
-// amount = double, bisa negatif ❌
-// user_id = integer, tidak ada validasi ❌
+// status = string bebas: "paid", "Paid", "PAID", "payed"
+// amount = double, bisa negatif
+// user_id = integer, tidak ada validasi
 ```
 
 ### 2. Boolean Flag Hell
@@ -21,7 +21,7 @@ protected $casts = [
     'is_refunded' => 'boolean',
     'is_refund_approved' => 'boolean',
 ];
-// Kombinasi invalid: is_refunded=true tapi is_paid=false ❌
+// Kombinasi invalid: is_refunded=true tapi is_paid=false
 ```
 
 ### 3. Anemic Domain Model
@@ -46,14 +46,14 @@ $order->status = 'refunded';
 ```php
 // SALAH - semua ini bisa terjadi:
 $order->refund_approved_at = now();
-$order->refund_requested_at = null; // Approved tanpa request ❌
+$order->refund_requested_at = null; // Approved tanpa request
 
-$order->amount = -1000; // Amount negatif ❌
+$order->amount = -1000; // Amount negatif
 
 $order->refund_date = '2024-01-01';
-$order->order_date = '2024-12-31'; // Refund sebelum order ❌
+$order->order_date = '2024-12-31'; // Refund sebelum order
 
-$order->status = 'REFUNDEDD'; // Typo ❌
+$order->status = 'REFUNDEDD'; // Typo
 ```
 
 ## Yang Harus Diperbaiki
