@@ -8,7 +8,7 @@
    - **Repository name**: `laravel-security-by-design-lab`
    - **Description**: `Lab Security by Design - Laravel. Kode sengaja tidak aman untuk pembelajaran.`
    - **Visibility**: Public atau Private
-   - ❌ JANGAN centang "Add README"
+   - JANGAN centang "Add README"
 4. Klik **"Create repository"**
 5. **Copy URL** yang muncul (contoh: `https://github.com/username/laravel-security-by-design-lab.git`)
 
@@ -28,20 +28,20 @@ git add .
 # 3. Commit
 git commit -m "Initial commit: Lab Security by Design - Laravel
 
-✨ Features:
+Features:
 - 4 modul pembelajaran (Authentication, Order, Wallet, Voucher)
 - 60+ masalah keamanan untuk diperbaiki
 - 29 test cases
 - Dokumentasi lengkap di folder docs/
 - Kisi-kisi perbaikan tanpa solusi lengkap
 
-📁 Structure:
+Structure:
 - app/ - Kode tidak aman (sengaja)
 - docs/ - Dokumentasi lengkap
 - tests/ - Test cases
 - database/migrations/ - Database schema
 
-⚠️ CATATAN: Kode sengaja tidak aman untuk tujuan pembelajaran!"
+CATATAN: Kode sengaja tidak aman untuk tujuan pembelajaran!"
 
 # 4. Add remote (GANTI dengan URL repository Anda!)
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
@@ -81,10 +81,10 @@ Lab Security by Design - Laravel. Kode sengaja tidak aman untuk pembelajaran.
 ## Langkah 4: Verifikasi
 
 Pastikan di GitHub:
-- ✅ README.md tampil di halaman utama
-- ✅ Folder `docs/` berisi dokumentasi
-- ✅ Folder `app/` berisi kode
-- ✅ Folder `tests/` berisi test cases
+- README.md tampil di halaman utama
+- Folder `docs/` berisi dokumentasi
+- Folder `app/` berisi kode
+- Folder `tests/` berisi test cases
 
 ---
 
