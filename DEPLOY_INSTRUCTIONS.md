@@ -1,4 +1,4 @@
-# 🚀 Instruksi Deploy ke GitHub
+# Instruksi Deploy ke GitHub
 
 ## Langkah 1: Buat Repository di GitHub
 
@@ -152,4 +152,4 @@ chmod +x DEPLOY_COMMANDS.sh
 
 ---
 
-✅ **Selesai! Repository siap digunakan!**
+**Selesai! Repository siap digunakan!**
